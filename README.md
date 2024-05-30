@@ -1,3 +1,3 @@
 # terraform-practice
 learning terraform........
-learning expense
+learning expense,shell,ansible
