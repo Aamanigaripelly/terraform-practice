@@ -1,4 +1,6 @@
-resource "aws_instance" "this" {
-  ami                     = "ami-0f3c7d07486cad139"
-  instance_type           = "t3.micro"
+variable "sample1"{
+  default = "hello"
+}
+output "sample1" {
+  value = "var.sample1"
 }
