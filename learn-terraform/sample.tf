@@ -19,6 +19,10 @@ variable "fruitsquantity" {
     mango = 150
   }
 }
-output "applecount" {
+output "mangocount" {
   value = var.fruitsquantity["mango"]
+}
+
+output "mangoquantitywithname" {
+  value = "mango quantity is only ${var.fruitsquantity["mango"]}"
 }
