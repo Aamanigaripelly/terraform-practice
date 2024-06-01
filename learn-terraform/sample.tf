@@ -26,3 +26,8 @@ output "mangocount" {
 output "mangoquantitywithname" {
   value = "mango quantity is only ${var.fruitsquantity["mango"]}"
 }
+
+variable test1{}
+output "test" {
+  value = var.test1
+}
